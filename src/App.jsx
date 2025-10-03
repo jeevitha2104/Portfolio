@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import badge1 from "./assets/50days.jpg";
 import badge2 from "./assets/aug.jpg";
 import badge3 from "./assets/sep.jpg";
+import photo from "./assets/photo.jpg";
 /*
   Complete professional portfolio website.
   - Dark theme.
@@ -120,7 +121,7 @@ function About() {
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
         <div className="flex justify-center">
           <div className="w-56 h-56 rounded-full overflow-hidden shadow-lg relative" style={{ boxShadow: '0 12px 40px rgba(8,223,216,0.20)' }}>
-            <img src="src/assets/photo.jpg" alt="Jeevitha" className="w-full h-full object-fit" />
+          <img src={photo} alt="Jeevitha" className="w-full h-full object-cover" />
             <div className="absolute inset-0 rounded-full"  />
           </div>
         </div>
