@@ -1,5 +1,7 @@
 import React, { useEffect, useRef } from "react";
-
+import badge1 from "./assets/50days.jpg";
+import badge2 from "./assets/aug.jpg";
+import badge3 from "./assets/sep.jpg";
 /*
   Complete professional portfolio website.
   - Dark theme.
@@ -135,11 +137,7 @@ function About() {
 }
 
 function Achievements() {
-  const badges = [
-    "./assets/50days.jpg",
-    "./assets/aug.jpg",
-    "./assets/sep.jpg",
-  ];
+  const badges = [badge1, badge2, badge3];
   return (
     <section id="Achievements" className="py-20 bg-[#0f0f17] reveal opacity-0 translate-y-6 transition-all duration-700">
       <div className="max-w-6xl mx-auto px-6">
