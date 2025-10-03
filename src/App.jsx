@@ -136,9 +136,9 @@ function About() {
 
 function Achievements() {
   const badges = [
-    "src/assets/50days.jpg",
-    "src/assets/aug.jpg",
-    "src/assets/sep.jpg",
+    "./assets/50days.jpg",
+    "./assets/aug.jpg",
+    "./assets/sep.jpg",
   ];
   return (
     <section id="Achievements" className="py-20 bg-[#0f0f17] reveal opacity-0 translate-y-6 transition-all duration-700">
