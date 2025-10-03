@@ -98,8 +98,8 @@ function Hero() {
           <h1 className="text-6xl font-extrabold text-white">Jeevitha V</h1>
           <p className="mt-4 text-lg text-gray-300 max-w-xl">I design and build scalable web applications, AR experiences and developer tools. I focus on clean architecture, performance and polished UX.</p>
           <div className="mt-6 flex gap-4">
-            <a href="#projects" className="px-5 py-3 rounded-md font-semibold bg-[#ff4d6d] text-white">See Projects</a>
-            <a href="#contact" className="px-5 py-3 rounded-md border border-gray-700 text-gray-200">Contact</a>
+            <a href="#Projects" className="px-5 py-3 rounded-md font-semibold bg-[#ff4d6d] text-white">See Projects</a>
+            <a href="#Contact" className="px-5 py-3 rounded-md border border-gray-700 text-gray-200">Contact</a>
           </div>
         </div>
         <div className="flex justify-center reveal opacity-0 translate-y-6 transition-all duration-700 delay-150">
